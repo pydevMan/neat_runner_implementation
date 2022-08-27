@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/natemcafee/Documents/GitHub/neat_runner_implementation/build",
+  "command": "/bin/clang++-10    -g   -o CMakeFiles/neat_runner_ai_exe.dir/main.cc.o -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.cc",
+  "file": "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.cc"
+},
+{
+  "directory": "/home/natemcafee/Documents/GitHub/neat_runner_implementation/build",
+  "command": "/bin/clang++-10    -g   -o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.cc",
+  "file": "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.cc"
+}
+]

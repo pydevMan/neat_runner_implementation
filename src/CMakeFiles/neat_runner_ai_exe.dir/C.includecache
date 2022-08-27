@@ -11,14 +11,12 @@ OpenCL/opencl.h
 -
 CL/cl.h
 -
-
-/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c
-stdio.h
+stdlib.h
 -
-headers/openclsetup.h
-/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/headers/openclsetup.h
 
 /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c
 headers/openclsetup.h
 /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/headers/openclsetup.h
+stdio.h
+-
 

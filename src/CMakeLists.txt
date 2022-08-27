@@ -2,8 +2,8 @@ project(neat_runner_implementation)
 
 cmake_minimum_required(VERSION 3.16)
 
-set (SOURCES main.c 
-    headers/openclsetup.h openclsetup.c
+set (SOURCES main.cc 
+    openclsetup.cc
 )
 
 add_executable(neat_runner_ai_exe ${SOURCES})

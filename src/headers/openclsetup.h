@@ -5,6 +5,27 @@
 #else
 #include <CL/cl.h>
 #endif
+#include <stdlib.h>
+
+
+/*
+ALL THE VARIABLES WE NEED FOR OPENCL
+*/
+
+cl_platform_id platform_id;
+cl_device_id device_id;  
+cl_uint ret_num_devices;
+cl_uint ret_num_platforms;
+cl_int ret;
+cl_context context;
+cl_command_queue command_queue;
+cl_program program;
+
+
+/*
+ALL THE OPENCL KERNALS
+*/
+cl_kernel my_kernels[1];
 
 
 /*

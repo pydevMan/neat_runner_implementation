@@ -1,15 +1,5 @@
 #include "headers/openclsetup.h"
-
-cl_platform_id platform_id;
-cl_device_id device_id;  
-cl_uint ret_num_devices;
-cl_uint ret_num_platforms;
-cl_int ret;
-cl_context context;
-cl_command_queue command_queue;
-
-
-
+#include <stdio.h>
 
 int setup_my_kernels()
 {

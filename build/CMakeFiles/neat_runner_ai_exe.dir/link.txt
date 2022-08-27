@@ -1,0 +1,1 @@
+/bin/clang++-10  -g   CMakeFiles/neat_runner_ai_exe.dir/main.cc.o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o  -o neat_runner_ai_exe  /usr/lib/x86_64-linux-gnu/libOpenCL.so 
