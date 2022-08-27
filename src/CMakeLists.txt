@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.16)
 
 set (SOURCES main.cc 
     openclsetup.cc
+    model.cc
 )
 
 add_executable(neat_runner_ai_exe ${SOURCES})

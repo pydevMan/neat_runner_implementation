@@ -150,6 +150,33 @@ main.cc.s:
 	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.cc.s
 .PHONY : main.cc.s
 
+model.o: model.cc.o
+
+.PHONY : model.o
+
+# target to build an object file
+model.cc.o:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.cc.o
+.PHONY : model.cc.o
+
+model.i: model.cc.i
+
+.PHONY : model.i
+
+# target to preprocess a source file
+model.cc.i:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.cc.i
+.PHONY : model.cc.i
+
+model.s: model.cc.s
+
+.PHONY : model.s
+
+# target to generate assembly for a file
+model.cc.s:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.cc.s
+.PHONY : model.cc.s
+
 openclsetup.o: openclsetup.cc.o
 
 .PHONY : openclsetup.o
@@ -189,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... model.o"
+	@echo "... model.i"
+	@echo "... model.s"
 	@echo "... openclsetup.o"
 	@echo "... openclsetup.i"
 	@echo "... openclsetup.s"

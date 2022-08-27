@@ -6,6 +6,7 @@
 #include <CL/cl.h>
 #endif
 #include <stdlib.h>
+#include <unordered_map>
 
 
 /*
@@ -25,8 +26,8 @@ cl_program program;
 /*
 ALL THE OPENCL KERNALS
 */
-cl_kernel my_kernels[1];
 
+std::unordered_map<unsigned char, cl_kernel> my_kernals = {};
 
 /*
 SETING UP THE OPENCL VERSION WE HAVE
