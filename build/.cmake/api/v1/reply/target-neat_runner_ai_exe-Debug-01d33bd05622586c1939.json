@@ -45,7 +45,7 @@
 					"fragment" : "-g  "
 				}
 			],
-			"language" : "CXX",
+			"language" : "C",
 			"sourceIndexes" : 
 			[
 				0,
@@ -73,7 +73,7 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
 	"name" : "neat_runner_ai_exe",
 	"nameOnDisk" : "neat_runner_ai_exe",
@@ -99,19 +99,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.cc",
+			"path" : "main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "openclsetup.cc",
+			"path" : "openclsetup.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "model.cc",
+			"path" : "model.c",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/neat_runner_ai_exe.dir/main.c.o"
+  "CMakeFiles/neat_runner_ai_exe.dir/model.c.o"
   "CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o"
   "neat_runner_ai_exe"
   "neat_runner_ai_exe.pdb"

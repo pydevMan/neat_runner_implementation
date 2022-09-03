@@ -4,6 +4,8 @@
 CMakeFiles/neat_runner_ai_exe.dir/main.c.o: headers/openclsetup.h
 CMakeFiles/neat_runner_ai_exe.dir/main.c.o: main.c
 
+CMakeFiles/neat_runner_ai_exe.dir/model.c.o: model.c
+
 CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o: headers/openclsetup.h
 CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o: openclsetup.c
 

@@ -4,6 +4,8 @@
 CMakeFiles/neat_runner_ai_exe.dir/main.c.o
  /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/headers/openclsetup.h
  /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c
+CMakeFiles/neat_runner_ai_exe.dir/model.c.o
+ /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.c
 CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o
  /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/headers/openclsetup.h
  /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c

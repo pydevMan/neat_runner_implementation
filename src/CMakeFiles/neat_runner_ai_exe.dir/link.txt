@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/neat_runner_ai_exe.dir/main.c.o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o  -o neat_runner_ai_exe  /usr/lib/x86_64-linux-gnu/libOpenCL.so 
+/usr/bin/cc    CMakeFiles/neat_runner_ai_exe.dir/main.c.o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o CMakeFiles/neat_runner_ai_exe.dir/model.c.o  -o neat_runner_ai_exe  /usr/lib/x86_64-linux-gnu/libOpenCL.so 

@@ -123,86 +123,86 @@ neat_runner_ai_exe/fast:
 	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/build
 .PHONY : neat_runner_ai_exe/fast
 
-main.o: main.cc.o
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cc.o:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.cc.o
-.PHONY : main.cc.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cc.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cc.i:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.cc.i
-.PHONY : main.cc.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cc.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cc.s:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.cc.s
-.PHONY : main.cc.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/main.c.s
+.PHONY : main.c.s
 
-model.o: model.cc.o
+model.o: model.c.o
 
 .PHONY : model.o
 
 # target to build an object file
-model.cc.o:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.cc.o
-.PHONY : model.cc.o
+model.c.o:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.c.o
+.PHONY : model.c.o
 
-model.i: model.cc.i
+model.i: model.c.i
 
 .PHONY : model.i
 
 # target to preprocess a source file
-model.cc.i:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.cc.i
-.PHONY : model.cc.i
+model.c.i:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.c.i
+.PHONY : model.c.i
 
-model.s: model.cc.s
+model.s: model.c.s
 
 .PHONY : model.s
 
 # target to generate assembly for a file
-model.cc.s:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.cc.s
-.PHONY : model.cc.s
+model.c.s:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/model.c.s
+.PHONY : model.c.s
 
-openclsetup.o: openclsetup.cc.o
+openclsetup.o: openclsetup.c.o
 
 .PHONY : openclsetup.o
 
 # target to build an object file
-openclsetup.cc.o:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o
-.PHONY : openclsetup.cc.o
+openclsetup.c.o:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o
+.PHONY : openclsetup.c.o
 
-openclsetup.i: openclsetup.cc.i
+openclsetup.i: openclsetup.c.i
 
 .PHONY : openclsetup.i
 
 # target to preprocess a source file
-openclsetup.cc.i:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.i
-.PHONY : openclsetup.cc.i
+openclsetup.c.i:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.i
+.PHONY : openclsetup.c.i
 
-openclsetup.s: openclsetup.cc.s
+openclsetup.s: openclsetup.c.s
 
 .PHONY : openclsetup.s
 
 # target to generate assembly for a file
-openclsetup.cc.s:
-	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.s
-.PHONY : openclsetup.cc.s
+openclsetup.c.s:
+	$(MAKE) -f CMakeFiles/neat_runner_ai_exe.dir/build.make CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.s
+.PHONY : openclsetup.c.s
 
 # Help Target
 help:

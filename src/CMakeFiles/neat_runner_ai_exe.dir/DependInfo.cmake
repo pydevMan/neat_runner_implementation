@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c" "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/CMakeFiles/neat_runner_ai_exe.dir/main.c.o"
+  "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.c" "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/CMakeFiles/neat_runner_ai_exe.dir/model.c.o"
   "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c" "/home/natemcafee/Documents/GitHub/neat_runner_implementation/src/CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

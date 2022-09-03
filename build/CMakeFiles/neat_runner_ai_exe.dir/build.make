@@ -57,61 +57,61 @@ include CMakeFiles/neat_runner_ai_exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/neat_runner_ai_exe.dir/flags.make
 
-CMakeFiles/neat_runner_ai_exe.dir/main.cc.o: CMakeFiles/neat_runner_ai_exe.dir/flags.make
-CMakeFiles/neat_runner_ai_exe.dir/main.cc.o: /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/neat_runner_ai_exe.dir/main.cc.o"
-	/bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neat_runner_ai_exe.dir/main.cc.o -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.cc
+CMakeFiles/neat_runner_ai_exe.dir/main.c.o: CMakeFiles/neat_runner_ai_exe.dir/flags.make
+CMakeFiles/neat_runner_ai_exe.dir/main.c.o: /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/neat_runner_ai_exe.dir/main.c.o"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/neat_runner_ai_exe.dir/main.c.o   -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c
 
-CMakeFiles/neat_runner_ai_exe.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neat_runner_ai_exe.dir/main.cc.i"
-	/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.cc > CMakeFiles/neat_runner_ai_exe.dir/main.cc.i
+CMakeFiles/neat_runner_ai_exe.dir/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neat_runner_ai_exe.dir/main.c.i"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c > CMakeFiles/neat_runner_ai_exe.dir/main.c.i
 
-CMakeFiles/neat_runner_ai_exe.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neat_runner_ai_exe.dir/main.cc.s"
-	/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.cc -o CMakeFiles/neat_runner_ai_exe.dir/main.cc.s
+CMakeFiles/neat_runner_ai_exe.dir/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neat_runner_ai_exe.dir/main.c.s"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/main.c -o CMakeFiles/neat_runner_ai_exe.dir/main.c.s
 
-CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o: CMakeFiles/neat_runner_ai_exe.dir/flags.make
-CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o: /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o"
-	/bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.cc
+CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o: CMakeFiles/neat_runner_ai_exe.dir/flags.make
+CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o: /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o   -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c
 
-CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.i"
-	/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.cc > CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.i
+CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.i"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c > CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.i
 
-CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.s"
-	/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.cc -o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.s
+CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.s"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/openclsetup.c -o CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.s
 
-CMakeFiles/neat_runner_ai_exe.dir/model.cc.o: CMakeFiles/neat_runner_ai_exe.dir/flags.make
-CMakeFiles/neat_runner_ai_exe.dir/model.cc.o: /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/neat_runner_ai_exe.dir/model.cc.o"
-	/bin/clang++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/neat_runner_ai_exe.dir/model.cc.o -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.cc
+CMakeFiles/neat_runner_ai_exe.dir/model.c.o: CMakeFiles/neat_runner_ai_exe.dir/flags.make
+CMakeFiles/neat_runner_ai_exe.dir/model.c.o: /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/neat_runner_ai_exe.dir/model.c.o"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/neat_runner_ai_exe.dir/model.c.o   -c /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.c
 
-CMakeFiles/neat_runner_ai_exe.dir/model.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/neat_runner_ai_exe.dir/model.cc.i"
-	/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.cc > CMakeFiles/neat_runner_ai_exe.dir/model.cc.i
+CMakeFiles/neat_runner_ai_exe.dir/model.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/neat_runner_ai_exe.dir/model.c.i"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.c > CMakeFiles/neat_runner_ai_exe.dir/model.c.i
 
-CMakeFiles/neat_runner_ai_exe.dir/model.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/neat_runner_ai_exe.dir/model.cc.s"
-	/bin/clang++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.cc -o CMakeFiles/neat_runner_ai_exe.dir/model.cc.s
+CMakeFiles/neat_runner_ai_exe.dir/model.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/neat_runner_ai_exe.dir/model.c.s"
+	/bin/clang-10 $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/natemcafee/Documents/GitHub/neat_runner_implementation/src/model.c -o CMakeFiles/neat_runner_ai_exe.dir/model.c.s
 
 # Object files for target neat_runner_ai_exe
 neat_runner_ai_exe_OBJECTS = \
-"CMakeFiles/neat_runner_ai_exe.dir/main.cc.o" \
-"CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o" \
-"CMakeFiles/neat_runner_ai_exe.dir/model.cc.o"
+"CMakeFiles/neat_runner_ai_exe.dir/main.c.o" \
+"CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o" \
+"CMakeFiles/neat_runner_ai_exe.dir/model.c.o"
 
 # External object files for target neat_runner_ai_exe
 neat_runner_ai_exe_EXTERNAL_OBJECTS =
 
-neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/main.cc.o
-neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/openclsetup.cc.o
-neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/model.cc.o
+neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/main.c.o
+neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/openclsetup.c.o
+neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/model.c.o
 neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/build.make
 neat_runner_ai_exe: /usr/lib/x86_64-linux-gnu/libOpenCL.so
 neat_runner_ai_exe: CMakeFiles/neat_runner_ai_exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable neat_runner_ai_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/natemcafee/Documents/GitHub/neat_runner_implementation/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable neat_runner_ai_exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/neat_runner_ai_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
